@@ -1,0 +1,128 @@
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        max-width: 1320px;
+        width: 100%;
+        margin: 0px auto;
+    }
+    body {
+        background: #e6e8ec;
+    }
+    .header {
+        height: 110px;
+        background: #FFF;
+        padding: 30px 200px 40px 180px;
+        border-bottom: 1px solid #A1A6B4;
+     }
+    
+    .header-links {
+         width: 262px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-sot {
+        font-family: Anonymous Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #000000;
+        text-decoration: none;
+     }
+     .list {
+        padding: 25px;
+      }
+      h1 {
+        color: #121723;
+        font-family: Anonymous Pro;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        padding-bottom: 24px
+      }
+      
+      .trainers {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(auto-fit, minmax(371px, 371px));
+        justify-content: space-between;
+        gap: 24px;
+      }
+      
+      .card {
+        background: #FFF;
+        border-radius: 12px 12px 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 371px;
+      }
+      
+      
+      .card-bottom {
+         display: flex;
+         padding: 32px 24px;
+         align-items: center;
+         border-radius: 12px 12px 12px 12px;
+         background:#FFF;
+      }
+      
+      .card-title {
+        font-family: Anonymous Pro;
+         color:  #121723;
+         font-size: 26px;
+         font-weight: 700;
+         margin-bottom: 10px;
+      }
+      .card-text {
+        font-family: Anonymous Pro;
+         color:  #121723;
+         font-size: 20px;
+         font-weight: 400;
+      }
+      .footer {
+        height: 142px;
+        background: #121723;
+        padding: 32px 190px 87.68px 180px;
+      }
+      .footer-container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         border-bottom: 1px solid #FFF; 
+         padding-bottom: 30px;
+      }
+      .footer-links {
+          width: 262px;
+         display: flex;
+         justify-content: space-between;
+         list-style-type: none;
+      }
+      .footer-sot {
+         color: #FFF;
+         font-family: Anonymous Pro;
+         font-size: 20px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: normal;
+         text-decoration: none;
+      }
+      .cross-2023 {
+         text-align: center;
+         padding-top:20px;
+         color: var(--text_gray, #A1A6B4);
+         font-family: Anonymous Pro;
+         font-size: 10px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: normal;
+      }
